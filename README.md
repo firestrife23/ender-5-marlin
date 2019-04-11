@@ -32,3 +32,10 @@ Special Note about LCD stuffs below, I disabled a lot of those to reclaim memory
 * Disabled Status Message Scrolling (reclaim memory space)
 * Disabled Long Filename Scrolling (reclaim memory space)
 * Enabled Set LCD progress manually (useful for Octoprint's plugin)
+
+## Future Plan
+
+Create different set of configuration.h for: 
+- [x] Mesh Leveling
+- [ ] EZABL Leveling
+- [ ] BLTouch Leveling
