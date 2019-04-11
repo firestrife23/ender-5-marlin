@@ -1,11 +1,11 @@
-# ender-5-marlin
+# Ender-5-Marlin
 Custom configuration.h and configuration_adv.h for Ender 5 and based on Marlin's latest bugfix-1.1.x.
 
-# Guide
+## Guide
 
 it's a drop in replacement files for Marlin's firmware https://github.com/MarlinFirmware/Marlin/archive/bugfix-1.1.x.zip
 
-# Features and Fixes
+## Features and Fixes
 
 * Set machine name to Ender-5
 * Set Homing to rear right corner
@@ -19,7 +19,7 @@ it's a drop in replacement files for Marlin's firmware https://github.com/Marlin
 * Boosted Buffer for improved print quality with Octopi, almost as good as printing from SD Card
 * Enabled Unknown Z No Raise (No more horrible grinding sound at Max Position.)
 * Set print bed to 220x220 with the volume of 300 (you can change it to 235x235 however, keep in mind if you have custom hotend cooling or Auto Leveling sensors it'll crash into frame unless you reduced it to 220x220 or less)
-* Enabled Mesh Bed Leveling with 5x5 points (I'm old school)
+* Enabled Mesh Bed Leveling with 5x5 points (I'm old school, you can disable if you don't want it)
 * Enabled Restore Leveling Data after G28 (Very useful for mesh or auto leveling)
 * Enabled LCD Bed Leveling Menu
 
