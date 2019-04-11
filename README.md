@@ -21,7 +21,7 @@ it's a drop in replacement files for Marlin's firmware https://github.com/Marlin
 * Boosted Buffer for improved print quality with Octopi, almost as good as printing from SD Card
 * Enabled Unknown Z No Raise (No more horrible grinding sound at Max Position.)
 * Set print bed to 220x220 with the volume of 300 (you can change it to 235x235 however, keep in mind if you have custom hotend cooling or Auto Leveling sensors it'll crash into frame unless you reduced it to 220x220 or less)
-* Enabled Mesh Bed Leveling with 5x5 points (I'm old school, you can disable if you don't want it)
+* Enabled Mesh Bed Leveling with 5x5 points (I'm old school, you can disable if don't want it)
   ```
   #define MESH_BED_LEVELING
   #define GRID_MAX_POINTS_X 5
@@ -36,6 +36,10 @@ Special Note about LCD stuffs below, I disabled a lot of those to reclaim memory
 * Disabled Status Message Scrolling (reclaim memory space)
 * Disabled Long Filename Scrolling (reclaim memory space)
 * Enabled Set LCD progress manually (useful for Octoprint's plugin)
+  * You'll need the following OctoPrint plugins for more accurate progress bar:
+    * [Detailed Progress](https://plugins.octoprint.org/plugins/detailedprogress/)
+    * [PrintTimeGenius](https://plugins.octoprint.org/plugins/PrintTimeGenius/)
+    * [OctoPrint-ProgressBasedOnTime](https://plugins.octoprint.org/plugins/ProgressBasedOnTime/)
 
 ## Future Plan
 
