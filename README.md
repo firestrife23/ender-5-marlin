@@ -5,7 +5,7 @@ Custom configuration.h and configuration_adv.h for Ender 5 and based on Marlin's
 
 it's a drop in replacement files for Marlin's firmware https://github.com/MarlinFirmware/Marlin/archive/bugfix-1.1.x.zip
 
-** It's recommend to run M503 & M500 before and after flashing firmware **
+**It's recommended to run M503 & M500 before and after flashing firmware**
 
 ## Features and Fixes
 
