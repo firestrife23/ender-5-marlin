@@ -14,7 +14,7 @@ it's a drop in replacement files for Marlin's firmware https://github.com/Marlin
 * Invert Z Stepper Direction
 * Disabled Bootscreen (reclaim memory space)
 * Disabled Status Screen Image (this remove "Ender-5" from the top left corner, for much cleaner status screen)
-* Enabled S-Curve Acceleration & Junction Deviation @ 0.08 for 0.4mm nozzle (You'll need to change the value if you're using different nozzle)
+* Enabled S-Curve Acceleration & Junction Deviation @ 0.08 for 0.04mm nozzle (You'll need to change the value if you're using different nozzle)
 * Linear Advance Supported. To make the use of Linear Advance, you will need to do the calibration, then add M900 K## to Slicer's Custom Starting G-Code.
 * Disabled Speaker
 * Disabled ARC Support (It's for laser etching, reclaim memory space)
