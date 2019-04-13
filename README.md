@@ -40,6 +40,36 @@ Special Note about LCD stuffs below, I disabled a lot of those to reclaim memory
     * [Detailed Progress](https://plugins.octoprint.org/plugins/detailedprogress/)
     * [PrintTimeGenius](https://plugins.octoprint.org/plugins/PrintTimeGenius/)
     * [OctoPrint-ProgressBasedOnTime](https://plugins.octoprint.org/plugins/ProgressBasedOnTime/)
+    
+## Slicer G-Code
+
+Start G-Code
+```
+G28 ; home all axes
+M117 Purge extruder
+G92 E0 ; reset extruder
+G1 Z1.0 F3000 ; move z up little to prevent scratching of surface
+G1 X5.0 Y20 Z0.3 F5000.0 ; move to start-line position adjusted to not hit clips
+G1 X5.0 Y220.0 Z0.3 F1500.0 E15 ; draw 1st line
+G1 X5.4 Y220.0 Z0.3 F5000.0 ; move to side a little
+G1 X5.4 Y20 Z0.3 F1500.0 E30 ; draw 2nd line
+G92 E0 ; reset extruder
+G1 Z1.0 F3000 ; move z up little to prevent scratching of surface
+```
+End G-Code
+```
+G91; set coordinates to relative
+G1 F1800 E-3; retract
+G1 F3000 Z10; lift nozzle off the print 10mm
+G90; change to absolute
+G28 X0 Y0 ; homing XY
+G1 Z300; prepare for part removal by lowering bed to bottom.
+M106 S0 ; turn off cooling fan
+M104 S0 ; turn off extruder
+M140 S0 ; turn off bed
+M84 ; disable motors
+```
+
 
 ## Future Plan
 
