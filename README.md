@@ -19,7 +19,7 @@ it's a drop in replacement files for Marlin's firmware https://github.com/Marlin
 * Disabled Speaker
 * Disabled ARC Support (It's for laser etching, reclaim memory space)
 * Boosted Buffer for improved print quality with Octopi, almost as good as printing from SD Card
-* Enabled Unknown Z No Raise (No more horrible grinding sound at Max Position. However, disble this if you use Auto Bed Leveling)
+* Enabled Unknown Z No Raise (No more horrible grinding sound at Max Position. However, disable this if you use Auto Bed Leveling)
 * Set print bed to 220x220 with the volume of 300 (you can change it to 235x235 however, keep in mind if you have custom hotend cooling or Auto Leveling sensors it'll crash into frame unless you reduced it to 220x220 or less)
 * Enabled Mesh Bed Leveling with 5x5 points (I'm old school, you can disable if don't want it)
   ```
