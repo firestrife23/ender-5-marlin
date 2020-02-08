@@ -1,8 +1,8 @@
-# Ender-5-Marlin
+# Ender-5-Marlin-1.1.x
+
 ### UPDATE: 2.8.2020
 I'm no longer maintaining this repository because I've completely rebuild My ender 5 with BigTreeTech's SKR 1.3 with TMC2208 drivers. Marlin's latest firmware now included pre-made configuration for Ender 5 so you should use that as a starting point instead of mine. 
 
-Custom configuration.h and configuration_adv.h for Ender 5 and based on Marlin's latest bugfix-1.1.x.
 
 ## Guide
 
